@@ -1,0 +1,16 @@
+{
+  "name": "hue-provider",
+  "version": "1.0.0",
+  "description": "nslhome provider for the Philips Hue",
+  "main": "hue-provider.js",
+  "scripts": {
+    "start": "node hue-provider.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick Largent <nicklargent@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-hue-api": "^2.2.0",
+    "nslhome-core": "nslhome/nslhome-core"
+  }
+}
